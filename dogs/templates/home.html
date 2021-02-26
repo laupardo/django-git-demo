@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Dogs</title>
 </head>
 <body>
     <h1>The dog page</h1>
     {% block content %}
     <h3>Home</h3>
     {% for dog in object_list %}
-    <p>{{dog.name}} is a {{dog.age}} year old {{dog.breed}}</p>
+    <p>{{dog.name}} is a {{dog.age}} year old {{dog.breed}}
+        <button onclick="window.location='{{dog.id}}/update/'">Edit</button>
+        <button onclick="window.location='{{dog.id}}/delete/'">Delete</button>
+    </p>
+
     {% endfor %}
     <input type="submit" value="Add dog"
     onclick="window.location='addDog';" />

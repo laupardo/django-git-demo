@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b3ea74-fe47-42cf-96c3-3f67aaf90f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/deleteDog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogs/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/addDog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addDog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usermanagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/usermanagement/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,5 +48,16 @@
       <updated>1614034070346</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
